@@ -1,0 +1,24 @@
+{
+  "name": "@muhammadbilal02/-bilalatm",
+  "version": "1.1.2",
+  "description": "Creating Code of ATM Machine with Inquirer pakage",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "-bilalatm": "index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Bilal Hussain",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
