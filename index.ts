@@ -24,7 +24,7 @@ if(pinAnswer.q1 === myPin){
                 name:"withdrawC",
                 message:"What U Want To Do",
                 type:"list",
-                choices:["withdraw","check balance", "fast cash"],
+                choices:["withdraw","check balance", "fast cash","exit"],
             }
         ]
     );
@@ -66,6 +66,9 @@ if(pinAnswer.q1 === myPin){
         }
     }       else if(method2.withdrawC === "check balance"){
         console.log("Your Balance is " + myBalance)
+    }
+    else if (method2.withdrawC ===  "exit"){
+        console.log("Exiting ATM. Goodbye!")
     }
 }
 else{
